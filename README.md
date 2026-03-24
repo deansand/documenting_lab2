@@ -1,16 +1,74 @@
-# Software documentation and design templates
-Implement the server-side portion of the application, which consists of three layers:
--    Data Access Layer
--    Business Logic Layer
--    Presentation Layer
-The relationship between the layers should be implemented using interfaces (business logic classes must use data access layer interfaces, not implementations) and the Inversion of Control and Dependency Injection patterns
-The presentation layer currently does not perform any logic and is represented only by interfaces
-The data access layer should be implemented using the ORM framework to populate the database created in Lab 1.b (class diagram). Additionally, the data access layer should implement reading data from a .csv file.
-The business logic layer calls the data access layer to read data from the file, creates the necessary models to populate the database, and calls the data access layer to save the information to the database.
+# Real Estate Import Lab (DAL/BLL/Presentation)
 
-Important: All data must be contained in a single file. When loading data into the database, implement the necessary logic to ensure data is correctly stored in the table.
-The file must contain at least 1,000 rows.
-To create the file, create a separate module/class that runs from the command line.
+This repository contains a reference implementation of a 3-layer server-side architecture with IoC/DI and ORM support.
 
+## Implemented Requirements
 
-Translated with DeepL.com (free version)
+1. Layered architecture:
+- `RealEstate.DAL`: ORM entities, DbContext, repositories, CSV reader implementation.
+- `RealEstate.BLL`: business service for reading denormalized CSV and saving to DB.
+- `RealEstate.Presentation`: interfaces only (no logic).
+
+2. Data model:
+- `Owner`: id, name, contactInfo.
+- `Apartment`: id, address, price, roomCount.
+- `Photo`: id, url, description.
+- `Review`: id, name, text.
+- `Rating`: id, score.
+- `Reservation`: id, startDate, endDate, status.
+
+3. CSV requirements:
+- Single denormalized CSV file with all fields.
+- Separate CLI module to generate `1000+` rows.
+- BLL import logic prevents duplicate `Owner` and `Apartment` records.
+
+4. IoC/DI:
+- BLL depends on DAL interfaces, not concrete implementations.
+- Composition root is in CLI importer project using dependency injection.
+
+## Project Structure
+
+```
+src/
+	RealEstate.Domain/
+	RealEstate.DAL/
+	RealEstate.BLL/
+	RealEstate.Presentation/
+	RealEstate.Importer.Cli/
+	RealEstate.CsvGenerator.Cli/
+```
+
+## Prerequisites
+
+- .NET SDK 8.0+
+
+## Build
+
+From repository root:
+
+```bash
+dotnet build src/RealEstate.Importer.Cli/RealEstate.Importer.Cli.csproj
+dotnet build src/RealEstate.CsvGenerator.Cli/RealEstate.CsvGenerator.Cli.csproj
+```
+
+## Generate CSV (1000+ rows)
+
+```bash
+dotnet run --project src/RealEstate.CsvGenerator.Cli/RealEstate.CsvGenerator.Cli.csproj -- --output data/import.csv --rows 1200
+```
+
+## Import CSV into Database
+
+```bash
+dotnet run --project src/RealEstate.Importer.Cli/RealEstate.Importer.Cli.csproj -- --csv data/import.csv --db Data Source=realestate.db
+```
+
+The importer automatically creates the database schema with EF Core via `EnsureCreated()`.
+
+## Inspect Database Contents (Verification)
+
+```bash
+dotnet run --project src/RealEstate.DbInspector.Cli/RealEstate.DbInspector.Cli.csproj -- --db Data Source=realestate.db
+```
+
+Shows table row counts and sample data from the imported database.
