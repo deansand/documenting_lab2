@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mXJADtnVMWU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danyl\\Git\\documenting_lab2\\src\\RealEstate.CsvGenerator.Cli\\RealEstate.CsvGenerator.Cli.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danyl\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
