@@ -1,0 +1,12 @@
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\bin\Debug\net8.0\RealEstate.Domain.deps.json
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\bin\Debug\net8.0\RealEstate.Domain.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\bin\Debug\net8.0\RealEstate.Domain.pdb
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.AssemblyInfoInputs.cache
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.AssemblyInfo.cs
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.csproj.CoreCompileInputs.cache
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.sourcelink.json
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\refint\RealEstate.Domain.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\RealEstate.Domain.pdb
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.Domain\obj\Debug\net8.0\ref\RealEstate.Domain.dll

@@ -1,0 +1,16 @@
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\bin\Debug\net8.0\RealEstate.BLL.deps.json
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\bin\Debug\net8.0\RealEstate.BLL.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\bin\Debug\net8.0\RealEstate.BLL.pdb
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\bin\Debug\net8.0\RealEstate.Domain.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\bin\Debug\net8.0\RealEstate.Domain.pdb
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.csproj.AssemblyReference.cache
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.AssemblyInfoInputs.cache
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.AssemblyInfo.cs
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.csproj.CoreCompileInputs.cache
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.sourcelink.json
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEsta.06B843CA.Up2Date
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\refint\RealEstate.BLL.dll
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\RealEstate.BLL.pdb
+C:\Users\danyl\Git\documenting_lab2\src\RealEstate.BLL\obj\Debug\net8.0\ref\RealEstate.BLL.dll
